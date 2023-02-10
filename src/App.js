@@ -1,5 +1,6 @@
 import './App.css'
-import Hello from './components/hello/Hello.jsx'
+import Num from './components/numPicker/Num.jsx'
+// import Hello from './components/hello/Hello.jsx'
 // import Greeter from './Greeter.jsx'
 // import PuppyList from './components/PuppyList'
 // import Chip from './components/Chip.jsx'
@@ -41,9 +42,7 @@ function App() {
       {/* can also write it this way */}
       <ul>
         {/* {things.map(thing => <li key={thing}>{thing}</li>)} */}
-        <Hello />
-        <Hello />
-        <Hello />
+        <Num />
       </ul>
     </div>
   )
