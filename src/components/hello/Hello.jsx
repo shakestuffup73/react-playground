@@ -5,12 +5,12 @@
 // }
 
 
-const Hello = () => {
-  let bangs = "!".repeat(this.props.bangs)
+const Hello = (props) => {
+  let bangs = "!".repeat(props.bangs)
   return ( 
     <>
       <div>
-        <h1>Hello there {this.props.to} from {this.props.from}{bangs}</h1>
+        <h1>Hello there {props.to} from {props.from}{bangs}</h1>
       </div>
     </>
   );

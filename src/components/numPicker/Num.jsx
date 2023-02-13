@@ -1,6 +1,6 @@
-import Hello from '../../components/hello/Hello.jsx'
+import Hello from '../hello/Hello.jsx'
 
-const Num = () => {
+const Num = (props) => {
   
   function getNum() {
     return Math.floor(Math.random() * 10) + 1

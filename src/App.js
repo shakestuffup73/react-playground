@@ -1,9 +1,6 @@
 import './App.css'
 import Num from './components/numPicker/Num.jsx'
-// import Hello from './components/hello/Hello.jsx'
-// import Greeter from './Greeter.jsx'
-// import PuppyList from './components/PuppyList'
-// import Chip from './components/Chip.jsx'
+
 
 // function component
 function App() {
