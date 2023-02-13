@@ -1,3 +1,5 @@
+import Hello from '../../components/hello/Hello.jsx'
+
 const Num = () => {
   
   function getNum() {
@@ -17,6 +19,11 @@ const Num = () => {
     <>
       <h1>Your number is {getNum()}</h1>
       <div>{msg}</div>
+      <Hello 
+        to="ringo"
+        from="paul"
+        bangs={4}
+      />
     </>
   );
 }

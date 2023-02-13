@@ -6,8 +6,13 @@
 
 
 const Hello = () => {
+  let bangs = "!".repeat(this.props.bangs)
   return ( 
-    <h1>Hello there</h1>
+    <>
+      <div>
+        <h1>Hello there {this.props.to} from {this.props.from}{bangs}</h1>
+      </div>
+    </>
   );
 }
 
