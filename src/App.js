@@ -1,9 +1,11 @@
 import './App.css'
-import Num from './components/numPicker/Num.jsx'
+import Machine from './components/machine/Machine.jsx'
+// import Friend from './components/friend/Friend.jsx'
+// import Num from './components/numPicker/Num.jsx'
 
 
 // function component
-function App() {
+function App({s1, s2, s3}) {
   // const things = ['water', 'cattle', 'poptarts', 'sadness']
   // const listOfThings = things.map((thing, idx) => <li key={idx}>{thing}</li>)
   // const puppies = [
@@ -37,10 +39,18 @@ function App() {
       {/* <ul>{listOfThings}</ul> */}
       {/* <ul>{puppiesList}</ul> */}
       {/* can also write it this way */}
-      <ul>
         {/* {things.map(thing => <li key={thing}>{thing}</li>)} */}
-        <Num />
-      </ul>
+        {/* <Num /> */}
+      <h1>Slot Machines!</h1>
+      <Machine
+        s1={s1}
+        s2={s2}
+        s3={s3}
+      />
+      {/* <Friend 
+        name='Joe'
+        hobbies={['Piano', 'Dance', 'Soccer']}
+      /> */}
     </div>
   )
 }
